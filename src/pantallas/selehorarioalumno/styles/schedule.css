@@ -1,0 +1,33 @@
+
+.style-schedule {
+    background-color: rgb(232, 222, 248);
+    border-color:rgb(232, 222, 248) ;
+    color: rgb(29, 25, 43);
+    display: inline-block; 
+    
+    margin-right: 30px; 
+    padding: 8px;
+    border-radius: 10px; 
+    text-align: center;
+}
+
+.form-control {
+    border-color: rgba(103, 80, 164, 1);
+    border-radius: 4px;
+    width: 312px;
+    height: 56px;
+    border-width: 3px;
+}
+
+#footer-form{
+    font-size: small;
+}
+
+.form-label {
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 6px;
+    transform: translateY(20px) translateX(-5px) scale(0.75);
+    color: solid rgba(103, 80, 164, 1);
+
+}

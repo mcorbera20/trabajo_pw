@@ -1,0 +1,19 @@
+.list-container {
+    display: inline-flex;
+}
+  
+.list-course { 
+    border: 1px solid rgba(121, 116, 126, 1);
+    margin-right: 30px; 
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 10px; 
+    text-align: center;
+    
+}
+
+
+.lista-elemento:last-child {
+    margin-right: 0;
+    
+}
