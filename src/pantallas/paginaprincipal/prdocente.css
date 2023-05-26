@@ -1,0 +1,95 @@
+
+  .citasPDocente {
+    position: relative;
+    width: auto;
+    height: 380px;
+    background: #F3EDF7;
+  }
+  .prim{
+    position: absolute;
+    left: 27px;
+    top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+  }
+
+  .cuadroPDocente{
+    box-sizing: border-box;
+    position: absolute;
+    height:80px;
+    width: 443px;
+    left: 27px;
+    top: 70px;
+    background: #FEF7FF;
+    border: 1px solid #CAC4D0;
+    border-radius: 12px;
+  }
+  
+  .textosPDocente span{
+    color: #1D1B20;
+    left:72px;
+    top:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .cuadroPDocente span:first-child{
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .cuadroPDocente span:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .circuloPDocente {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #6750A4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagencitaPDocente {  
+    float: right;
+    width: 80px;
+    height: 80px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+  }
+  
+  .letraPDocente {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+
+  .cuadro2PDocente{
+    box-sizing: border-box;
+    position: absolute;
+    height:80px;
+    width: 443px;
+    left: 27px;
+    top: 170px;
+    background: #FEF7FF;
+    border: 1px solid #CAC4D0;
+    border-radius: 12px;
+
+  }
+  .cuadro2PDocente span:first-child{
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .cuadro2PDocente span:nth-child(2){
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+  }

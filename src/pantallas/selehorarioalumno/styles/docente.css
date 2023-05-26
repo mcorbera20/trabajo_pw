@@ -1,0 +1,38 @@
+#doc-container{
+    text-align: center;
+    background-color: rgba(254, 247, 255, 1);
+}
+
+#encabezado{ 
+    color: gray;
+    border-width: 2px; 
+}
+
+#left{ 
+    text-align: left;
+}
+
+#forma{ 
+    display: flex; 
+    align-items: center; 
+}
+
+#logo{
+    margin-right: 10px;
+    width: 40px;
+}
+
+
+#doc-tit{ 
+    font-size: small;
+}
+
+#doc-pic{ 
+    width: 250px;
+    height: 200px;
+}
+
+#descrip-doc{ 
+    text-align: justify;
+    
+}

@@ -1,0 +1,430 @@
+
+  .content p{
+    position: absolute;
+    left: 182px;
+    top: 86px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    margin-right: 10px;
+  }
+
+  /*PerfilComponente*/
+
+  #guardar-btn {
+    background-color: #6750A4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 25px;
+    top: 92px;
+    border-radius: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 99px;
+    height: 40px;
+
+  }
+  
+  #guardar-btn:hover {
+    background-color: #6750A4;
+  }
+
+ /* .InfPer {
+    position: absolute;
+    /*height: 264px;
+    left: 165px;
+    right: 31px;
+    top: 159px;
+    background: #F3EDF7;
+  }*/
+
+  .InfPer p{
+    position: absolute;
+    left: 185px;
+    top: 152px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 10px;
+    line-height: 20px;
+  }
+
+  .InfPer table {
+    position: absolute;
+    /*display: flex;*/
+    padding: 0px;
+    width: 1000px;
+    height: 76px;
+    left: 175px;
+    top: 203px;
+  }
+
+  .tabla-info {
+    width: 100%; /* Ajusta el ancho total de la tabla */
+    border-collapse: collapse;
+  }
+  
+  .tabla-info td {
+    padding: 10px; /* Ajusta el padding para dar más espacio a las celdas */
+  }
+  
+  .tabla-info input {
+    width: 100%; /* Ajusta el ancho de los inputs al 100% del tamaño de la celda */
+    padding: 15px; /* Ajusta el padding de los inputs */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del input */
+  }
+
+  .perfil-image {
+    position: absolute;
+    width: 194px;
+    height: 148px;
+    right: 60px;
+    top: 197px;
+    background: url(./imagenes/perfil.png);
+    
+  }
+
+  #foto-btn {
+    color: #6750A4;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 100px;
+    top: 363px;
+    border-radius: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 109px;
+    height: 40px;
+    background-color: white;
+
+    /*filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));*/
+  }
+  
+  #foto-btn:hover {
+    background-color: #dad9de;
+  }
+
+
+  /*Interfaz.js*/
+
+  .datosPerfil {
+    position: absolute;
+    height: 48px;
+    left: 182px;
+    top: 383px;
+    background: #F3EDF7;
+  }
+
+  .datos datos-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0px;
+    
+    position: absolute;
+    width: 135px;
+    height: 48px;
+    left: calc(50% - 135px/2 - 398.5px);
+    top: calc(50% - 48px/2 + 47px);
+    background: #FEF7FF;
+
+  }
+
+  #datus-btn {
+    color: #6750A4;
+    background-color: #FEF7FF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 170px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  #datus-btn:hover {
+    background-color: #f1ecf2;
+  }
+
+  #uni-btn {
+    color: #6750A4;
+    background-color: #FEF7FF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    left: 170px;
+    width: 170px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  #uni-btn:hover {
+    background-color: #f1ecf2;
+  }
+
+  #pres-btn {
+    color: #6750A4;
+    background-color: #FEF7FF;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    left: 340px;
+    width: 170px;
+    height: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  #pres-btn:hover {
+    background-color: #f1ecf2;
+  }
+  
+
+
+  /*UsuarioInterfaz.js*/
+   .dat {
+    position: absolute;
+    height: 274px;
+    left: 180px;
+    right: 31px;
+    top: 423px;
+    background: #F3EDF7;
+  }
+
+
+  .dat table {
+    position: absolute;
+    /*display: flex;*/
+    padding: 0px;
+    width: 1000px;
+    height: 76px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .tabla-cuenta {
+    width: 100%; /* Ajusta el ancho total de la tabla */
+    border-collapse: collapse;
+  }
+  
+  .tabla-cuenta td {
+    padding: 10px; /* Ajusta el padding para dar más espacio a las celdas */
+  }
+  
+  .tabla-cuenta input {
+    width: 100%; /* Ajusta el ancho de los inputs al 100% del tamaño de la celda */
+    padding: 15px; /* Ajusta el padding de los inputs */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del input */
+    border: 2px solid #6750A4;
+    border-radius: 5px;
+    background-color: #F3EDF7;
+  }
+
+/*PresInterfaz.js*/
+.pre {
+  position: absolute;
+  height: 274px;
+  left: 180px;
+  right: 31px;
+  top: 423px;
+  background: #F3EDF7;
+}
+
+
+.pre table {
+  position: absolute;
+  /*display: flex;*/
+  padding: 0px;
+  width: 1150px;
+  height: 76px;
+  left: 10px;
+  top: 10px;
+}
+
+.tabla-presentacion {
+  width: 100%; /* Ajusta el ancho total de la tabla */
+  border-collapse: collapse;
+}
+
+.tabla-presentacion td {
+  padding: 10px; /* Ajusta el padding para dar más espacio a las celdas */
+}
+
+.tabla-presentacion input {
+  width: 100%; /* Ajusta el ancho de los inputs al 100% del tamaño de la celda */
+  padding: 15px; /* Ajusta el padding de los inputs */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del input */
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #F3EDF7;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/*#lpre{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-30%);
+  right: 10px;
+  font-weight: bold;
+  color: #333;}*/
+
+
+/**universidadInterfaz,js*/
+
+.uni-left {
+  position: absolute;
+  height: 274px;
+  left: 180px;
+  right: 31px;
+  top: 423px;
+  background: #F3EDF7;
+}
+
+.uni-left table {
+  position: absolute;
+  /*display: flex;*/
+  padding: 0px;
+  width: 480px;
+  height: 76px;
+  left: 30px;
+  top: 10px;
+}
+
+.tabla-uni {
+  width: 100%; /* Ajusta el ancho total de la tabla */
+  border-collapse: collapse;
+}
+
+.tabla-uni tr {
+  padding: 10px; /* Ajusta el padding para dar más espacio a las celdas */
+}
+
+.tabla-uni input {
+  width: 95%; /* Ajusta el ancho de los inputs al 100% del tamaño de la celda */
+  padding: 15px; /* Ajusta el padding de los inputs */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del input */
+  border: 2px solid  #6750A4;
+  border-radius: 5px;
+  background-color: #F3EDF7;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.suggestion-chip{
+  border: 2px solid #79747E;
+  border-radius: 10px;
+  padding:3px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.vertical{
+  width: 1px;     /*长度*/
+  height: 30%;
+  position: fixed;
+  top: 320px;
+  color: #79747E;
+
+  transform: matrix(1, 0, 0, -1, 160 , 128);
+  left: 580px;  
+  background-color: #b0acb1;
+}
+
+
+.uni-right {
+  position: absolute;
+  height: 274px;
+  left: 800px;
+  right: 31px;
+  top: 423px;
+  background: #F3EDF7;
+}
+
+.uni-right input {
+  width: 95%; /* Ajusta el ancho de los inputs al 100% del tamaño de la celda */
+  padding: 15px; /* Ajusta el padding de los inputs */
+  box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del input */
+  border: 2px solid #6750A4;
+  border-radius: 5px;
+  background-color: #F3EDF7;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+
+
+.chip{
+  border: 2px solid #79747E;
+  border-radius: 10px;
+  padding:3px;
+  margin-left: 20px;
+  bottom: 10px;
+  width: auto;
+  padding: auto;
+
+}
+
+.delete-chip{
+  border:none;
+  cursor: pointer;
+}
+
+
+.btn-Cancelar{
+  color: #6750A4;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-color:  #b0acb1;
+  cursor: pointer;
+  position: absolute;
+  right: 130px;
+  top: 92px;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 99px;
+  height: 40px;
+}
+

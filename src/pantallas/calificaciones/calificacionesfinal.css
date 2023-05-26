@@ -1,0 +1,37 @@
+/*Contenido*/
+.Titulo {
+    position: relative;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #000000;
+    width: 100%;
+}
+
+
+.Reviews {
+    position: relative;
+    width: 80%;
+    height: auto;
+    background: #F3EDF7;
+}
+
+.Review {
+    padding-left: 10px;
+    height: 20%;
+    font-weight: 500;
+}
+
+.izq {
+    padding-right: 10px;
+    height: 50px;
+    width: 40px;
+    text-align: center;
+}
+
+.numero {
+    background-color: #EADDFF;
+    border-radius: 100px;
+    padding: 10px;
+}
+
