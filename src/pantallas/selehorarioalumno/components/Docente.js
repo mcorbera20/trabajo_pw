@@ -1,11 +1,9 @@
 import {Component} from "react";
 import Course from "./Course";
-import imagen from "./img/docente.jpg";
-import inicial from "./img/inicial-doc.png";
-
+import imagen from "../../../imagenes/profesor.png";
+import inicial from "../../../imagenes/inicial-doc.png";
 
 export class Docente extends Component{
-
     render(){
         return (
             <div class="container" id="doc-container"> 

@@ -1,53 +1,29 @@
 import React from "react";
-import persona from "./imagenes/persona.png";
-import icon from "./imagenes/raya.png";
-import "../estiloprincipal/estiloprincipal.css";
+import BarraSuperior from "../components/BarraSuperior";
+import BarraLateral from "../components/BarraLateral";
 import "./docentecitas.css"
 import ContenidoDocenteCitas from "./ContenidoDocenteCitas";
 
 export default function DocenteCitas() {
     return (
         <div className="Principal">
-
-                <div className="Superior">
-                    <img src={icon} alt="Icono" className="imagen-izq"/>
-                    <h1>Atención de citas</h1>
-                    <img src={persona} alt="Perfil" className="imagen-der"/>
-                </div>
-
-                <div className="Inferior">
-                    
-                    <div className="Lateral">
-                        <div className="Pags">
-                            <ul>
-                                <li><button className="btnbanner" >Principal</button></li>
-                                <li><button className="btnbanner" >Perfil</button></li>
-                                <li><button className="btnbanner" >Horarios</button></li>
-                            </ul>
-                        </div>
-                        <div className="Version">
-                            <p>SAC v1.0.1-alpha</p>
-                        </div>
+            <BarraSuperior/>
+            <div className="Inferior">
+                <BarraLateral/>
+                <div className="Contenido">
+                    <div className="Titulo">
+                        <span>Mis Citas</span>
+                        <button id="prog-cita">Programar una Cita</button>
                     </div>
+                    <hr/>
 
-                    <div className="Contenido">
-                        <div className="Titulo">
-                            <span>Mis Citas</span>
-                            <button id="prog-cita">Programar una Cita</button>
-                        </div>
-                        <hr/>
-
-                        <div className="asesorias">
-                            <span>Citas de Asesoria Reservadas:</span>
-                            <button id="cita-asesoria">Ver citas pasadas</button>
-                        </div>
-                        <ContenidoDocenteCitas/>
+                    <div className="asesorias">
+                        <span>Citas de Asesoria Reservadas:</span>
+                        <button id="cita-asesoria">Ver citas pasadas</button>
                     </div>
-                        
-                </div>
-
-        </div>              
-
+                    <ContenidoDocenteCitas/>
+                </div>  
+            </div>
+        </div>
     )
-
 }

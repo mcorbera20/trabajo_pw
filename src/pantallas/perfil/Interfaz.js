@@ -1,38 +1,18 @@
 import React, { useState } from 'react';
+import BarraSuperior from '../components/BarraSuperior';
+import BarraLateral from '../components/BarraLateral';
 import './Perfil.css';
-import "../estiloprincipal/estiloprincipal.css";
-import icon from './imagenes/raya.png'
-import persona from './imagenes/persona.png';
-import perfil from './imagenes/perfil.png'
+import perfil from '../../imagenes/perfil.png'
 
 
 function EstiloPrincipal(){
   return (
     <div className="Principal">
-      <div className="Superior">
-        <img src={icon} alt="Icono" className="imagen-izq"/>
-        <h1>Atención de citas</h1>
-        <img src={persona} alt="Perfil" className="imagen-der"/>
-      </div>
-      
+      <BarraSuperior/>
       <div className="Inferior">
-        <div className="Lateral">
-          <div className="Pags">
-            <ul>
-              <li><button className="btnbanner" >Principal</button></li>
-              <li><button className="btnbanner" >Perfil</button></li>
-              <li><button className="btnbanner" >Horarios</button></li>
-            </ul>
-          </div>
-          
-          <div className="Version">
-            <p>SAC v1.0.1-alpha</p>
-          </div>
-        </div>
+        <BarraLateral/>
       </div>
-
     </div>
-
   )
 }
 

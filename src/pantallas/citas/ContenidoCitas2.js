@@ -1,8 +1,5 @@
 import React from "react";
-import persona from "./imagenes/persona.png";
-import icon from "./imagenes/raya.png";
-
-import profesor from "./imagenes/profesor.png";
+import profesor from "../../imagenes/profesor.png";
 
 export default function ContenidoCitas2 () {
     return (
