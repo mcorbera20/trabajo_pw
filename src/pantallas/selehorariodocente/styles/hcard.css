@@ -1,0 +1,18 @@
+.col-cont {
+    background-color:#EADDFF;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .card-row{
+    background-color: #FEF7FF;
+  }
+  
+  .card{
+    border-color:#FEF7FF;
+    border-radius: 0%;
+  }
