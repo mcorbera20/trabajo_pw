@@ -20,7 +20,7 @@ export default function ContenidoPDocente(){
                         <span>18/06/2023 08:00 am</span>
                     </td>
                     <td>
-                        <img src={figuras} class="imagencitaPDocente"></img>
+                        <img src={figuras} class="imagencitaPDocente" alt="figuras"></img>
                     </td>
                 </tr>
             </table>
@@ -37,7 +37,7 @@ export default function ContenidoPDocente(){
                         <span>18/06/2023 08:00 am</span>
                     </td>
                     <td>
-                        <img src={figuras} class="imagencitaPDocente"></img>
+                        <img src={figuras} class="imagencitaPDocente" alt="figuras"></img>
                     </td>
                 </tr>
             </table>

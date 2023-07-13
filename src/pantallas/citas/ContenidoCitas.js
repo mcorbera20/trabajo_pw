@@ -24,7 +24,7 @@ export default function ContenidoCitas () {
 
         <tr>
             <td colspan="2" bgcolor="lightgray" width= "314px" height="140px">
-                <img src={profesor} class="profe"></img>
+                <img src={profesor} class="profe" alt="Foto del Profesor"></img>
 
                 
             </td>

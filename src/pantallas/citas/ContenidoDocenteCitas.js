@@ -24,9 +24,7 @@ export default function ContenidoDocenteCitas () {
 
         <tr>
             <td colspan="2" bgcolor="lightgray" width= "314px" height="140px">
-                <img src={alumno} class="profe"></img>
-
-                
+                <img src={alumno} class="profe" alt="foto de alumno"></img>
             </td>
         </tr>
 
@@ -47,7 +45,7 @@ export default function ContenidoDocenteCitas () {
         <tr>
             <td colspan="2">
                 <div class="link">
-                    <p align="left"><a href="#">Enlace de Zoom</a></p>
+                    <p align="left"><a href="https://zoom.us/es">Enlace de Zoom</a></p>
                 </div>
             </td>
         </tr>

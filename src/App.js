@@ -1,7 +1,7 @@
 import './App.css'; //Importa el estilo principal para todas las páginas
 import React from "react";
 //Página de registro e inicio de sesión
-import Login from "./pantallas/login-register/login";
+/*import Login from "./pantallas/login-register/login";
 import Register from "./pantallas/login-register/register";
 
 //Páginas para Alumno
@@ -19,7 +19,7 @@ import Calificaciones from './pantallas/calificaciones/calificaciones';
 import HorarioDocente from './pantallas/selehorariodocente/HorarioDocente';
 
 //Páginas para Alumno y Docente
-import MiPerfil from "./pantallas/perfil/Interfaz";
+import MiPerfil from "./pantallas/perfil/Interfaz";*/
 
 function App() {
   return (
@@ -28,6 +28,5 @@ function App() {
     </div>
   );
 }
-
 
 export default App;

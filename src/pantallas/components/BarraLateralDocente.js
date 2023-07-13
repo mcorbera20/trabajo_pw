@@ -1,15 +1,17 @@
+import { Link } from "react-router-dom";
+
 export default function BarraLateralDocente(){
     return(
         <div className="Lateral">
-            <div className="Paginas">
+            <nav className="Paginas">
                 <ul>
-                    <li><button className="btnbanner">Principal</button></li>
-                    <li><button className="btnbanner">Perfil</button></li>
-                    <li><button className="btnbanner">Citas</button></li>
-                    <li><button className="btnbanner">Horarios</button></li>
-                    <li><button className="btnbanner">Calificaciones</button></li>
+                    <li><Link to={'/'}>Principal</Link></li>
+                    <li><Link to={'/perfil'}>Perfil</Link></li>
+                    <li><Link to={'/citas'}>Citas</Link></li>
+                    <li><Link to={'/horarios'}>Horarios</Link></li>
+                    <li><Link to={'/calificaciones'}>Calificaciones</Link></li>
                 </ul>
-            </div>
+            </nav>
             <div className="Version">
                 <p>SAC v1.0.1-alpha</p>
             </div>
