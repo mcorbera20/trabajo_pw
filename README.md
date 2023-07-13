@@ -1,7 +1,7 @@
-no se ingresaron los nodos, tiene que poner npm install para que corra, aparte usamos boostrap y react icons.
+Al subir el proyecto a Github se eliminan los node_modules, para ello se tiene que ejecutar el comando de "npm install" para instalar dichos módulos. Además, se tiene que instalar los módulos de boostrap y react icons.
 
-react icons
+**React Icons:**
 npm install react-icons --save
 
-bootsrap
+**Bootsrap:**
 npm install bootstrap
