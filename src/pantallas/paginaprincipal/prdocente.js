@@ -1,6 +1,6 @@
 import React from "react";
 import BarraSuperior from "../components/BarraSuperior";
-import BarraLateral from "../components/BarraLateral";
+import BarraLateralDocente from "../components/BarraLateralDocente";
 import "./prdocente.css"
 import Contenidoprdocente from "./Contenidoprdocente";
 
@@ -9,7 +9,7 @@ export default function PDocente() {
         <div className="Principal">
             <BarraSuperior/>
             <div className="Inferior">
-                <BarraLateral/>
+                <BarraLateralDocente/>
                 <div className="Contenido">
                     <div className="Titulo">
                         <span>Bienvenido, Profesor Juan!</span>

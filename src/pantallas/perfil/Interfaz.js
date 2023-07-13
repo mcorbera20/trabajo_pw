@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import BarraSuperior from '../components/BarraSuperior';
-import BarraLateral from '../components/BarraLateral';
+import BarraLateralDocente from '../components/BarraLateralDocente';
 import './Perfil.css';
 import perfil from '../../imagenes/perfil.png'
 
@@ -10,7 +10,7 @@ function EstiloPrincipal(){
     <div className="Principal">
       <BarraSuperior/>
       <div className="Inferior">
-        <BarraLateral/>
+        <BarraLateralDocente/>
       </div>
     </div>
   )

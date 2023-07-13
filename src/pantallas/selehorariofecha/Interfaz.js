@@ -4,39 +4,35 @@ import Nombre from './btnNombre';
 import Fecha from './btnFecha';
 
 const Interfaz = () => {
-    const [mostrarInterfaz, setMostrarInterfaz] = useState(false);
-    const [tipoInterfaz, setTipoInterfaz] = useState('');
-  
-    const handleBotonClick = (tipo) => {
-      setMostrarInterfaz(true);
-      setTipoInterfaz(tipo);
-    };
-  
+  const [mostrarInterfaz, setMostrarInterfaz] = useState(false);
+  const [tipoInterfaz, setTipoInterfaz] = useState('');
 
-    const renderInterfaz = () => {
-      
+  const handleBotonClick = (tipo) => {
+    setMostrarInterfaz(true);
+    setTipoInterfaz(tipo);
+  };
 
-      if (tipoInterfaz === 'nombre') {
-        return <Nombre />;
-      }
-      else if (tipoInterfaz === 'fecha') {
-        return <Fecha />;
-      }
+  const renderInterfaz = () => {
+    if (tipoInterfaz === 'nombre') {
+      return <Nombre />;
+    }
+    else if (tipoInterfaz === 'fecha') {
+      return <Fecha />;
+    }
+  };
 
-    };
-    
-    return (
-        <div>
+  return (
+    <div>
       <div class="cambio">
         <button id="nombre-btn" onClick={() => handleBotonClick('nombre')}>Por nombre</button>   
         <button id="fecha-btn" onClick={() => handleBotonClick('fecha')}>Por fecha</button> 
       </div>
 
-      <div >
+      <div>
         {mostrarInterfaz && renderInterfaz()}
       </div>
     </div>
-      
-    );}
-  
-  export default Interfaz;
+  );
+}
+
+export default Interfaz;

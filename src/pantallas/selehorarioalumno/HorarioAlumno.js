@@ -1,6 +1,6 @@
 import React from "react";
 import BarraSuperior from "../components/BarraSuperior";
-import BarraLateral from "../components/BarraLateral";
+import BarraLateralAlumno from "../components/BarraLateralAlumno";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Citas from "./components/Citas";
 import "./styles/docente.css";
@@ -12,7 +12,7 @@ export default function HorarioAlumno() {
         <div className="Principal">
             <BarraSuperior/>
             <div className="Inferior">
-                <BarraLateral/>
+                <BarraLateralAlumno/>
                 <div className="Contenido">
                     <div className="Titulo">
                         <h1>Citas</h1> 

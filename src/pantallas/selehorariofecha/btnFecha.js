@@ -12,7 +12,6 @@ const BusqInterfaz = () => {
       event.preventDefault();
       console.log('busqueda', VBusqueda);
     };
-  
 
     return (
       <form onSubmit={handleSubmit}>
@@ -34,7 +33,6 @@ const BusqInterfaz = () => {
     return(
       <div>
         <BusqInterfaz/>
-
       </div>
     )
   };

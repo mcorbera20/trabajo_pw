@@ -1,13 +1,12 @@
 import React from "react";
 import "./register.css";
 
-
 export default function Register() {
     return(
-        <div className="pantallaregister">
+        <div className="Login" id="Login">
             <div className="titulo">
                 <h1>Sistema de Citas para Atención a Estudiantes</h1>
-                <h1>Página de Registro</h1>
+                <h2>Página de Registro</h2>
             </div>
 
             <div className="contenidoregister">
@@ -48,11 +47,8 @@ export default function Register() {
                             <td align="right"><input className="textoregistrar" type="submit" value="Registrar"/></td>
                         </tr>
                     </tbody>
-
                 </table>
             </div>
-
-
         </div>
     )
 }

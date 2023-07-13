@@ -1,15 +1,15 @@
 import React from "react";
 import BarraSuperior from "../components/BarraSuperior";
-import BarraLateral from "../components/BarraLateral";
+import BarraLateralAlumno from "../components/BarraLateralAlumno";
 import "./citaspasadasfinal.css"
 import ContenidoCitas from "./ContenidoCitas";
 
-export default function CitasPasadasFinal() {
+export default function CitasPasadas() {
     return (
         <div className="Principal">
             <BarraSuperior/>
             <div className="Inferior">
-                <BarraLateral/>
+                <BarraLateralAlumno/>
                 <div className="Contenido">
                     <div className="Titulo">
                         <span>Mis Citas</span>

@@ -1,6 +1,6 @@
 import React from "react";
 import BarraSuperior from "../components/BarraSuperior";
-import BarraLateral from "../components/BarraLateral";
+import BarraLateralAlumno from "../components/BarraLateralAlumno";
 import "./alumnocitas.css"
 
 export default function AlumnoCitas() {
@@ -8,7 +8,7 @@ export default function AlumnoCitas() {
         <div className="Principal">
             <BarraSuperior/>
             <div className="Inferior">
-                <BarraLateral/>
+                <BarraLateralAlumno/>
                 <div className="Contenido">
                     <div className="Titulo">
                         <span>Mis Citas</span>

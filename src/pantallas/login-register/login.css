@@ -23,7 +23,16 @@
     height: 34px;
     width: 250px;
     font-size: 17px;
+}
 
+.contenidologin input[type=password] {
+    padding:10px;
+    border-radius: 5px;
+    font-family: Roboto, sans-serif;
+    border-color: rgb(147,112,219);
+    height: 34px;
+    width: 250px;
+    font-size: 17px;
 }
 
 .contenidologin{

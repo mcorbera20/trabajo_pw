@@ -20,7 +20,7 @@ export default function Login() {
 
                         <tr>
                             <td colSpan={3}>
-                                <input className="caja" type="text" name="passw" id="passw" placeholder="Password"/>
+                                <input className="caja" type="password" name="passw" id="passw" placeholder="Password"/>
                             </td>
                         </tr>
                         

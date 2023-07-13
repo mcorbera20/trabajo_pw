@@ -1,27 +1,29 @@
-import './App.css';
+//import './App.css'; //Importa el estilo principal para todas las páginas
 import React from "react";
-/*import PGDocente from "./components/PaginaPrincipalDocente/TopAddBar";
-import PGPRUEBA from './components/PaginaPrincipalDocente/prueba';
-import PaginaDOC from './components/PaginaPrincipalDocente/paginadocente';
-import CitasPasadas from './components/PaginaPrincipalDocente/alumnocitaspasadas';
-import CitasPasadasFinal from './components/PaginaPrincipalDocente/citaspasadasfinal';*/
+//Página de registro e inicio de sesión
 import Login from "./pantallas/login-register/login";
 import Register from "./pantallas/login-register/register";
-import CitasPasadasFinal from "./pantallas/citas/citaspasadasfinal";
+
+//Páginas para Alumno
+import PAlumno from './pantallas/paginaprincipal/pralumno';
 import AlumnoCitas from "./pantallas/citas/alumnocitas"; //Sin citas reservadas
 import AlumnoCitas2 from './pantallas/citas/alumnocitas2';
-import MiPerfil from "./pantallas/perfil/Interfaz"
-import DocenteCitas from './pantallas/citas/docentecitas';
-import Calificaciones from './pantallas/calificaciones/calificaciones';
-import PDocente from './pantallas/paginaprincipal/prdocente';
-import PAlumno from './pantallas/paginaprincipal/pralumno';
+import CitasPasadas from "./pantallas/citas/citaspasadas";
 import HorarioFecha from './pantallas/selehorariofecha/AppHorarioFecha';
 import HorarioAlumno from './pantallas/selehorarioalumno/HorarioAlumno';
+
+//Páginas para Docente
+import PDocente from './pantallas/paginaprincipal/prdocente';
+import DocenteCitas from './pantallas/citas/docentecitas';
+import Calificaciones from './pantallas/calificaciones/calificaciones';
+
+//Páginas para Alumno y Docente
+import MiPerfil from "./pantallas/perfil/Interfaz";
 
 function App() {
   return (
     <div className="App">
-      <HorarioAlumno/>
+      <Login/>
     </div>
   );
 }
