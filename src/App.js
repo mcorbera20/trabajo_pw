@@ -16,7 +16,7 @@ import HorarioAlumno from './pantallas/selehorarioalumno/HorarioAlumno';
 import PDocente from './pantallas/paginaprincipal/prdocente';
 import DocenteCitas from './pantallas/citas/docentecitas';
 import Calificaciones from './pantallas/calificaciones/calificaciones';
-import { HorarioDocente } from './pantallas/selehorariodocente/HorarioDocente';
+import HorarioDocente from './pantallas/selehorariodocente/HorarioDocente';
 
 //Páginas para Alumno y Docente
 import MiPerfil from "./pantallas/perfil/Interfaz";
