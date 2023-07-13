@@ -5,7 +5,7 @@ import "./login.css";
 export default function Login() {
     return(
         <div className="pantallalogin">
-            <div className="titulo">
+            <div className="title">
                 <h1>Sistema de Citas para Atención a Estudiantes</h1>
             </div>
 
@@ -42,8 +42,6 @@ export default function Login() {
                     </tbody>
                 </table>
             </div>
-
-
         </div>
     )
 }

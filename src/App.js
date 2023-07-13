@@ -1,4 +1,4 @@
-//import './App.css'; //Importa el estilo principal para todas las páginas
+import './App.css'; //Importa el estilo principal para todas las páginas
 import React from "react";
 //Página de registro e inicio de sesión
 import Login from "./pantallas/login-register/login";

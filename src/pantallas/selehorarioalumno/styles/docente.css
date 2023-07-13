@@ -1,6 +1,7 @@
 #doc-container{
     text-align: center;
     background-color: rgba(254, 247, 255, 1);
+    margin-top: 10px;
 }
 
 #encabezado{ 
@@ -21,7 +22,6 @@
     margin-right: 10px;
     width: 40px;
 }
-
 
 #doc-tit{ 
     font-size: small;

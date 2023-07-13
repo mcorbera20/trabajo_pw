@@ -101,7 +101,6 @@
 }
 
 .btnbanner{
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -111,7 +110,6 @@
     border: none;
     position: relative;
     border-radius: 100px;
-    display: flex;
     align-items: center;
     text-align: center;
     color: #6750A4;
@@ -140,5 +138,5 @@
     display: block;
     padding: 10px 24px;
     position: relative;
-    width: 85%;
+    width: 100%;
 }

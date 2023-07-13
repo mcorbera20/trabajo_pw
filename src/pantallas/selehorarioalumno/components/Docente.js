@@ -7,9 +7,7 @@ export class Docente extends Component{
     render(){
         return (
             <div class="container" id="doc-container"> 
-                <hr id="encabezado"/>
                 <div id="left">
-                    
                     <div class="col">
 
                         <p id="forma">

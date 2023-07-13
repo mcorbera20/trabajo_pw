@@ -3,7 +3,7 @@ import Schedule from "./Schedule";
 
 function Citas(){ 
   return (
-    <div>
+    <div className="informacion">
       <div class="container">     
         <Docente/>
       </div>

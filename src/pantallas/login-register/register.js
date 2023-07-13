@@ -3,8 +3,8 @@ import "./register.css";
 
 export default function Register() {
     return(
-        <div className="Login" id="Login">
-            <div className="titulo">
+        <div className="register" id="Login">
+            <div className="titleR">
                 <h1>Sistema de Citas para Atención a Estudiantes</h1>
                 <h2>Página de Registro</h2>
             </div>
